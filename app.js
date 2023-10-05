@@ -6,7 +6,7 @@ const DefaultData = require("./defaultdata");
 const router = require("./routes/router");
 const cookiParser = require("cookie-parser")
 require('./db/conn');
-require("dotenv").config();
+
 const port = 8005
 
 // middleware
